@@ -19,3 +19,24 @@ This repository contains an implementation of **FedHybrid** (a hybrid federated 
 2. Install dependencies:
    ```bash
    pip install torch torchvision numpy
+
+
+##Configure training parameters in the notebook:
+
+num_rounds — Total federated training rounds (e.g., 50)
+
+local_epochs — Number of epochs per client per round (e.g., 2)
+
+batch_size — Mini-batch size (e.g., 64)
+
+device — 'cuda' for GPU, 'cpu' otherwise
+
+Run each cell sequentially to:
+
+Load CIFAR-10 dataset
+
+Initialize models and clients
+
+Run FedAvg and FedHybrid training
+
+Observe training accuracy and loss over rounds
