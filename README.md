@@ -1,4 +1,5 @@
-# fedhybrid-CIFAR
+WCFL: Robust and Resource-Efficient Federated
+Learning Using Model Weight Caching
 
 # FedHybrid CIFAR-10 Notebook
 
